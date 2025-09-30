@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Home() {
-  const [nombreApellido, setNombreApellido] = useState("");
+ const [nombreApellido, setNombreApellido] = useState("");
   const [invitados, setInvitados] = useState(1);
   const [telefono, setTelefono] = useState("");
   const [mensaje, setMensaje] = useState("");
